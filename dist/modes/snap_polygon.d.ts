@@ -19,13 +19,4 @@ declare const SnapPolygonMode: {
     onUncombineFeature?(this: MapboxDraw.DrawCustomModeThis & MapboxDraw.DrawCustomMode<any, any>, state: any): void;
     toDisplayFeatures(this: MapboxDraw.DrawCustomModeThis & MapboxDraw.DrawCustomMode<any, any>, state: any, geojson: import("geojson").GeoJSON, display: (geojson: import("geojson").GeoJSON) => void): void;
 };
-export type SnapPolygonState = {
-    snap?: boolean;
-    snapOptions: {
-        snapPx?: number;
-        snapToMidPoints?: boolean;
-        snapVertexPriorityDistance?: number;
-        sources?: string[];
-    };
-};
 export default SnapPolygonMode;

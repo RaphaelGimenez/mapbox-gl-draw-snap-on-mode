@@ -1,6 +1,6 @@
 {
   "name": "mapbox-gl-draw-snap-on-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Snapping mode that snap to given sources for mapbox-gl-draw. In Typescript!",
   "main": "dist/index.js",
   "module": "src/index.js",
@@ -37,7 +37,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mhsattarian/mapbox-gl-draw-snap-mode.git"
+    "url": "git+ssh://git@github.com:RaphaelGimenez/mapbox-gl-draw-snap-on-mode.git"
   },
   "keywords": [
     "mapbox",
