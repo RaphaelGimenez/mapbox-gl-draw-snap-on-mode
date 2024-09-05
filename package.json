@@ -10,13 +10,23 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "@turf/bbox-polygon": "^7.1.0",
+    "@turf/boolean-disjoint": "^7.1.0",
+    "@turf/boolean-intersects": "^7.1.0",
     "@turf/difference": "^7.1.0",
+    "@turf/distance": "^7.1.0",
     "@turf/helpers": "^7.1.0",
+    "@turf/invariant": "^7.1.0",
+    "@turf/midpoint": "^7.1.0",
+    "@turf/nearest-point": "^7.1.0",
+    "@turf/nearest-point-on-line": "^7.1.0",
+    "@turf/polygon-to-line": "^7.1.0",
     "@turf/turf": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.7",
     "@babel/preset-env": "^7.12.7",
+    "@types/geojson": "^7946.0.14",
     "@types/mapbox-gl": "^3.4.0",
     "@types/mapbox__mapbox-gl-draw": "^1.4.7",
     "@types/node": "^22.5.3",

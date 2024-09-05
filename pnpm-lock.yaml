@@ -11,10 +11,37 @@ importers:
       '@mapbox/mapbox-gl-draw':
         specifier: ^1.4.3
         version: 1.4.3
+      '@turf/bbox-polygon':
+        specifier: ^7.1.0
+        version: 7.1.0
+      '@turf/boolean-disjoint':
+        specifier: ^7.1.0
+        version: 7.1.0
+      '@turf/boolean-intersects':
+        specifier: ^7.1.0
+        version: 7.1.0
       '@turf/difference':
         specifier: ^7.1.0
         version: 7.1.0
+      '@turf/distance':
+        specifier: ^7.1.0
+        version: 7.1.0
       '@turf/helpers':
+        specifier: ^7.1.0
+        version: 7.1.0
+      '@turf/invariant':
+        specifier: ^7.1.0
+        version: 7.1.0
+      '@turf/midpoint':
+        specifier: ^7.1.0
+        version: 7.1.0
+      '@turf/nearest-point':
+        specifier: ^7.1.0
+        version: 7.1.0
+      '@turf/nearest-point-on-line':
+        specifier: ^7.1.0
+        version: 7.1.0
+      '@turf/polygon-to-line':
         specifier: ^7.1.0
         version: 7.1.0
       '@turf/turf':
@@ -27,6 +54,9 @@ importers:
       '@babel/preset-env':
         specifier: ^7.12.7
         version: 7.25.4(@babel/core@7.25.2)
+      '@types/geojson':
+        specifier: ^7946.0.14
+        version: 7946.0.14
       '@types/mapbox-gl':
         specifier: ^3.4.0
         version: 3.4.0
