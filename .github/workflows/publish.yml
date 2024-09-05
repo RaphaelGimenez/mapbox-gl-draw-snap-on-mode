@@ -15,8 +15,8 @@ jobs:
           node-version: 16
       - name: Install and Build 🔧
         run: |
-          npm ci
-          npm run build
+          pnpm ci
+          pnpm run build
       - name: Publish 🔧
         uses: JS-DevTools/npm-publish@v1
         with:

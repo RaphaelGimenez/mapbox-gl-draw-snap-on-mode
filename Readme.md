@@ -20,7 +20,7 @@ See a full example in the docs folder, or check at the [**Demo**](https://mhsatt
 ## Install
 
 ```shell
-npm i mapbox-gl-draw-snap-on-mode
+pnpmi mapbox-gl-draw-snap-on-mode
 ```
 
 or use CDN:
@@ -111,8 +111,8 @@ You can also create a [custom mapbox-gl draw toolbar](https://github.com/mapbox/
 Install dependencies, start the dev server:
 
 ```bash
-npm install
-npm start
+pnpminstall
+pnpmstart
 ```
 
 to preview, change `docs/index.html` as so:
@@ -129,10 +129,10 @@ to preview, change `docs/index.html` as so:
 To GitHub and NPM:
 
 ```
-npm version (major|minor|patch)
+pnpmversion (major|minor|patch)
 git push --tags
 git push
-npm publish
+pnpmpublish
 ```
 
 ## Acknowledgement
