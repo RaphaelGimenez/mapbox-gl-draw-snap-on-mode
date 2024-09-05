@@ -38,5 +38,13 @@ module.exports = [
       //   statsOptions: { source: false },
       // }),
     ],
+    externals: {
+      "@mapbox/mapbox-gl-draw": {
+        commonjs: "@mapbox/mapbox-gl-draw", // CommonJS module
+        commonjs2: "@mapbox/mapbox-gl-draw", // CommonJS2 module
+        amd: "@mapbox/mapbox-gl-draw", // AMD module
+        root: "MapboxDraw", // Global variable in a browser environment
+      },
+    },
   },
 ];

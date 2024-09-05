@@ -1,8 +1,8 @@
 {
-  "hash": "8b7a88c4e96bab38f7f1",
+  "hash": "f10c8a5ca82b17c6fd45",
   "version": "5.94.0",
-  "time": 4232,
-  "builtAt": 1725535988488,
+  "time": 2706,
+  "builtAt": 1725536424890,
   "publicPath": "auto",
   "outputPath": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/dist",
   "assetsByChunkName": {
@@ -14,9 +14,9 @@
     {
       "type": "asset",
       "name": "index.js",
-      "size": 133172,
-      "emitted": true,
-      "comparedForEmit": false,
+      "size": 54199,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "javascriptModule": false,
@@ -25,7 +25,7 @@
           "license": "index.js.LICENSE.txt",
           "sourceMap": "index.js.map"
         },
-        "size": 133172
+        "size": 54199
       },
       "chunkNames": [
         "main"
@@ -38,13 +38,13 @@
         {
           "type": "sourceMap",
           "name": "index.js.map",
-          "size": 486608,
-          "emitted": true,
-          "comparedForEmit": false,
+          "size": 301546,
+          "emitted": false,
+          "comparedForEmit": true,
           "cached": false,
           "info": {
             "development": true,
-            "size": 486608
+            "size": 301546
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -90,8 +90,8 @@
       "type": "asset",
       "name": "utils/customDrawStyles.d.ts",
       "size": 10029,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 10029
@@ -166,8 +166,8 @@
       "type": "asset",
       "name": "index.d.ts",
       "size": 753,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "size": 753
@@ -188,10 +188,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 279081,
+      "size": 199751,
       "sizes": {
-        "javascript": 277923,
-        "runtime": 1158
+        "javascript": 198814,
+        "runtime": 937
       },
       "names": [
         "main"
@@ -206,491 +206,13 @@
       "auxiliaryFiles": [
         "index.js.map"
       ],
-      "hash": "fb06316e22cbca4cee01",
+      "hash": "538b495b1416f829f04d",
       "childrenByOrder": {},
       "id": 792,
       "siblings": [],
       "parents": [],
       "children": [],
       "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 79151,
-          "sizes": {
-            "javascript": 79151
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "name": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "nameForCondition": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "index": 2,
-          "preOrderIndex": 2,
-          "index2": 0,
-          "postOrderIndex": 0,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-          "issuerName": "./src/modes/snap_polygon.ts",
-          "issuerPath": [
-            {
-              "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
-              "name": "./src/index.ts",
-              "id": null
-            },
-            {
-              "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "name": "./src/modes/snap_polygon.ts",
-              "id": null
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 568,
-          "issuerId": null,
-          "chunks": [
-            792
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "module": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "moduleName": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "resolvedModule": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "1:68-82",
-              "moduleId": 568,
-              "resolvedModuleId": 568
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "module": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "moduleName": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "resolvedModule": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "1:205-209",
-              "moduleId": 568,
-              "resolvedModuleId": 568
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "1:0-48",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "3:28-42",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "4:21-51",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "5:18-38",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "1:0-57",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "2:41-61",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "3:28-42",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "4:24-53",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "68:12-40",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "85:8-36",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-              "resolvedModule": "./src/utils/customDrawStyles.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "1:0-45",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-              "resolvedModule": "./src/utils/customDrawStyles.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "2:30-43",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-              "resolvedModule": "./src/utils/index.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "2:0-48",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-              "resolvedModule": "./src/utils/index.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "3:25-45",
-              "moduleId": 648,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "module": "./src/modes/snap_direct_select.ts",
-              "moduleName": "./src/modes/snap_direct_select.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "1:0-48",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "module": "./src/modes/snap_direct_select.ts",
-              "moduleName": "./src/modes/snap_direct_select.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "3:28-42",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "module": "./src/modes/snap_direct_select.ts",
-              "moduleName": "./src/modes/snap_direct_select.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "4:21-51",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "module": "./src/modes/snap_direct_select.ts",
-              "moduleName": "./src/modes/snap_direct_select.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-              "resolvedModule": "./src/modes/snap_direct_select.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "5:18-38",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "module": "./src/modes/snap_polygon.ts",
-              "moduleName": "./src/modes/snap_polygon.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "1:0-57",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "module": "./src/modes/snap_polygon.ts",
-              "moduleName": "./src/modes/snap_polygon.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "2:41-61",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "module": "./src/modes/snap_polygon.ts",
-              "moduleName": "./src/modes/snap_polygon.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "3:28-42",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "module": "./src/modes/snap_polygon.ts",
-              "moduleName": "./src/modes/snap_polygon.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "4:24-53",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "module": "./src/modes/snap_polygon.ts",
-              "moduleName": "./src/modes/snap_polygon.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "68:12-40",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "module": "./src/modes/snap_polygon.ts",
-              "moduleName": "./src/modes/snap_polygon.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-              "resolvedModule": "./src/modes/snap_polygon.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "85:8-36",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-              "module": "./src/utils/customDrawStyles.ts",
-              "moduleName": "./src/utils/customDrawStyles.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-              "resolvedModule": "./src/utils/customDrawStyles.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "1:0-45",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-              "module": "./src/utils/customDrawStyles.ts",
-              "moduleName": "./src/utils/customDrawStyles.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-              "resolvedModule": "./src/utils/customDrawStyles.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "2:30-43",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-              "module": "./src/utils/index.ts",
-              "moduleName": "./src/utils/index.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-              "resolvedModule": "./src/utils/index.ts",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "2:0-48",
-              "moduleId": null,
-              "resolvedModuleId": null
-            },
-            {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-              "module": "./src/utils/index.ts",
-              "moduleName": "./src/utils/index.ts",
-              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-              "resolvedModule": "./src/utils/index.ts",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "@mapbox/mapbox-gl-draw",
-              "loc": "3:25-45",
-              "moduleId": null,
-              "resolvedModuleId": null
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: this is used directly at 1:205-209",
-            "CommonJS bailout: module.exports is used directly at 1:68-82",
-            "Statement (ExpressionStatement) with side effects in source code at 1:0-79107",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 2
-        },
         {
           "type": "module",
           "moduleType": "javascript/auto",
@@ -772,9 +294,9 @@
               "resolvedModuleId": 180
             },
             {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|5bc408d3eff43470f4e5bf8438e4912e",
+              "module": "./src/index.ts + 25 modules",
+              "moduleName": "./src/index.ts + 25 modules",
               "resolvedModuleIdentifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
               "resolvedModule": "./node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
               "type": "harmony side effect evaluation",
@@ -782,13 +304,13 @@
               "explanation": "",
               "userRequest": "polygon-clipping",
               "loc": "2:0-47",
-              "moduleId": 648,
+              "moduleId": 877,
               "resolvedModuleId": null
             },
             {
-              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-              "module": "./src/index.ts + 24 modules",
-              "moduleName": "./src/index.ts + 24 modules",
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|5bc408d3eff43470f4e5bf8438e4912e",
+              "module": "./src/index.ts + 25 modules",
+              "moduleName": "./src/index.ts + 25 modules",
               "resolvedModuleIdentifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
               "resolvedModule": "./node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
               "type": "harmony import specifier",
@@ -796,7 +318,7 @@
               "explanation": "",
               "userRequest": "polygon-clipping",
               "loc": "14:22-48",
-              "moduleId": 648,
+              "moduleId": 877,
               "resolvedModuleId": null
             },
             {
@@ -842,29 +364,29 @@
           "type": "module",
           "moduleType": "javascript/esm",
           "layer": null,
-          "size": 109153,
+          "size": 109195,
           "sizes": {
-            "javascript": 109153
+            "javascript": 109195
           },
           "built": true,
           "codeGenerated": true,
           "buildTimeExecuted": false,
           "cached": false,
-          "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "name": "./src/index.ts + 24 modules",
+          "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|5bc408d3eff43470f4e5bf8438e4912e",
+          "name": "./src/index.ts + 25 modules",
           "nameForCondition": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
           "index": 0,
           "preOrderIndex": 0,
           "index2": 26,
           "postOrderIndex": 26,
-          "cacheable": true,
+          "cacheable": false,
           "optional": false,
           "orphan": false,
           "dependent": false,
           "failed": false,
           "errors": 0,
           "warnings": 0,
-          "id": 648,
+          "id": 877,
           "chunks": [
             792
           ],
@@ -906,7 +428,6 @@
             "Utils"
           ],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js: Module is not an ECMAScript module",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/polygon-clipping@0.15.7/node_modules/polygon-clipping/dist/polygon-clipping.umd.js: Module is not an ECMAScript module"
           ],
           "depth": 0,
@@ -1573,6 +1094,254 @@
                 "Statement (VariableDeclaration) with side effects in source code at 2:0-10:3"
               ],
               "depth": 1
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/dynamic",
+              "layer": null,
+              "size": 42,
+              "sizes": {
+                "javascript": 42
+              },
+              "built": true,
+              "codeGenerated": false,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "external var {\"commonjs\":\"@mapbox/mapbox-gl-draw\",\"commonjs2\":\"@mapbox/mapbox-gl-draw\",\"amd\":\"@mapbox/mapbox-gl-draw\",\"root\":\"MapboxDraw\"}",
+              "name": "external {\"commonjs\":\"@mapbox/mapbox-gl-draw\",\"commonjs2\":\"@mapbox/mapbox-gl-draw\",\"amd\":\"@mapbox/mapbox-gl-draw\",\"root\":\"MapboxDraw\"}",
+              "nameForCondition": null,
+              "index": 2,
+              "preOrderIndex": 2,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "optional": false,
+              "orphan": false,
+              "dependent": true,
+              "issuer": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "issuerName": "./src/modes/snap_polygon.ts",
+              "issuerPath": [
+                {
+                  "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
+                  "name": "./src/index.ts",
+                  "id": null
+                },
+                {
+                  "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "name": "./src/modes/snap_polygon.ts",
+                  "id": null
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": null,
+              "issuerId": null,
+              "chunks": [],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "module": "./src/modes/snap_direct_select.ts",
+                  "moduleName": "./src/modes/snap_direct_select.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "resolvedModule": "./src/modes/snap_direct_select.ts",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "1:0-48",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "module": "./src/modes/snap_direct_select.ts",
+                  "moduleName": "./src/modes/snap_direct_select.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "resolvedModule": "./src/modes/snap_direct_select.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "3:28-42",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "module": "./src/modes/snap_direct_select.ts",
+                  "moduleName": "./src/modes/snap_direct_select.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "resolvedModule": "./src/modes/snap_direct_select.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "4:21-51",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "module": "./src/modes/snap_direct_select.ts",
+                  "moduleName": "./src/modes/snap_direct_select.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+                  "resolvedModule": "./src/modes/snap_direct_select.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "5:18-38",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "module": "./src/modes/snap_polygon.ts",
+                  "moduleName": "./src/modes/snap_polygon.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "resolvedModule": "./src/modes/snap_polygon.ts",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "1:0-57",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "module": "./src/modes/snap_polygon.ts",
+                  "moduleName": "./src/modes/snap_polygon.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "resolvedModule": "./src/modes/snap_polygon.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "2:41-61",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "module": "./src/modes/snap_polygon.ts",
+                  "moduleName": "./src/modes/snap_polygon.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "resolvedModule": "./src/modes/snap_polygon.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "3:28-42",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "module": "./src/modes/snap_polygon.ts",
+                  "moduleName": "./src/modes/snap_polygon.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "resolvedModule": "./src/modes/snap_polygon.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "4:24-53",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "module": "./src/modes/snap_polygon.ts",
+                  "moduleName": "./src/modes/snap_polygon.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "resolvedModule": "./src/modes/snap_polygon.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "68:12-40",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "module": "./src/modes/snap_polygon.ts",
+                  "moduleName": "./src/modes/snap_polygon.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "resolvedModule": "./src/modes/snap_polygon.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "85:8-36",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+                  "module": "./src/utils/customDrawStyles.ts",
+                  "moduleName": "./src/utils/customDrawStyles.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+                  "resolvedModule": "./src/utils/customDrawStyles.ts",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "1:0-45",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+                  "module": "./src/utils/customDrawStyles.ts",
+                  "moduleName": "./src/utils/customDrawStyles.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+                  "resolvedModule": "./src/utils/customDrawStyles.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "2:30-43",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+                  "module": "./src/utils/index.ts",
+                  "moduleName": "./src/utils/index.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+                  "resolvedModule": "./src/utils/index.ts",
+                  "type": "harmony side effect evaluation",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "2:0-48",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+                  "module": "./src/utils/index.ts",
+                  "moduleName": "./src/utils/index.ts",
+                  "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+                  "resolvedModule": "./src/utils/index.ts",
+                  "type": "harmony import specifier",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "@mapbox/mapbox-gl-draw",
+                  "loc": "3:25-45",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: List of module exports is dynamic (lib: maybe provided (runtime-defined) and used in main, other exports: maybe provided (runtime-defined) and maybe used in main (runtime-defined))"
+              ],
+              "depth": 2
             },
             {
               "type": "module",
@@ -4577,8 +4346,8 @@
               "optional": false,
               "orphan": false,
               "dependent": true,
-              "issuer": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-disjoint/dist/esm/index.js",
-              "issuerName": "./node_modules/@turf/boolean-disjoint/dist/esm/index.js",
+              "issuer": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-intersects/dist/esm/index.js",
+              "issuerName": "./node_modules/@turf/boolean-intersects/dist/esm/index.js",
               "issuerPath": [
                 {
                   "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
@@ -4586,13 +4355,13 @@
                   "id": null
                 },
                 {
-                  "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-                  "name": "./src/utils/index.ts",
+                  "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+                  "name": "./src/modes/snap_polygon.ts",
                   "id": null
                 },
                 {
-                  "identifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-disjoint/dist/esm/index.js",
-                  "name": "./node_modules/@turf/boolean-disjoint/dist/esm/index.js",
+                  "identifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-intersects/dist/esm/index.js",
+                  "name": "./node_modules/@turf/boolean-intersects/dist/esm/index.js",
                   "id": null
                 }
               ],
@@ -5477,42 +5246,6 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 221,
-          "sizes": {
-            "runtime": 221
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/global",
-          "name": "webpack/runtime/global",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            792
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
           "size": 88,
           "sizes": {
             "runtime": 88
@@ -5598,28 +5331,28 @@
       "type": "module",
       "moduleType": "javascript/esm",
       "layer": null,
-      "size": 109153,
+      "size": 109195,
       "sizes": {
-        "javascript": 109153
+        "javascript": 109195
       },
       "built": true,
       "codeGenerated": true,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-      "name": "./src/index.ts + 24 modules",
+      "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|5bc408d3eff43470f4e5bf8438e4912e",
+      "name": "./src/index.ts + 25 modules",
       "nameForCondition": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
       "index": 0,
       "preOrderIndex": 0,
       "index2": 26,
       "postOrderIndex": 26,
-      "cacheable": true,
+      "cacheable": false,
       "optional": false,
       "orphan": false,
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 648,
+      "id": 877,
       "chunks": [
         792
       ],
@@ -5661,7 +5394,6 @@
         "Utils"
       ],
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js: Module is not an ECMAScript module",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/.pnpm/polygon-clipping@0.15.7/node_modules/polygon-clipping/dist/polygon-clipping.umd.js: Module is not an ECMAScript module"
       ],
       "depth": 0,
@@ -6323,6 +6055,253 @@
             "Statement (VariableDeclaration) with side effects in source code at 2:0-10:3"
           ],
           "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/dynamic",
+          "layer": null,
+          "size": 42,
+          "sizes": {
+            "javascript": 42
+          },
+          "built": true,
+          "codeGenerated": false,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "external var {\"commonjs\":\"@mapbox/mapbox-gl-draw\",\"commonjs2\":\"@mapbox/mapbox-gl-draw\",\"amd\":\"@mapbox/mapbox-gl-draw\",\"root\":\"MapboxDraw\"}",
+          "name": "external {\"commonjs\":\"@mapbox/mapbox-gl-draw\",\"commonjs2\":\"@mapbox/mapbox-gl-draw\",\"amd\":\"@mapbox/mapbox-gl-draw\",\"root\":\"MapboxDraw\"}",
+          "nameForCondition": null,
+          "index": 2,
+          "preOrderIndex": 2,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "optional": false,
+          "orphan": false,
+          "issuer": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+          "issuerName": "./src/modes/snap_polygon.ts",
+          "issuerPath": [
+            {
+              "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
+              "name": "./src/index.ts",
+              "id": null
+            },
+            {
+              "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "name": "./src/modes/snap_polygon.ts",
+              "id": null
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": null,
+          "issuerId": null,
+          "chunks": [],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "module": "./src/modes/snap_direct_select.ts",
+              "moduleName": "./src/modes/snap_direct_select.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "resolvedModule": "./src/modes/snap_direct_select.ts",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "1:0-48",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "module": "./src/modes/snap_direct_select.ts",
+              "moduleName": "./src/modes/snap_direct_select.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "resolvedModule": "./src/modes/snap_direct_select.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "3:28-42",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "module": "./src/modes/snap_direct_select.ts",
+              "moduleName": "./src/modes/snap_direct_select.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "resolvedModule": "./src/modes/snap_direct_select.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "4:21-51",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "module": "./src/modes/snap_direct_select.ts",
+              "moduleName": "./src/modes/snap_direct_select.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
+              "resolvedModule": "./src/modes/snap_direct_select.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "5:18-38",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "module": "./src/modes/snap_polygon.ts",
+              "moduleName": "./src/modes/snap_polygon.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "resolvedModule": "./src/modes/snap_polygon.ts",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "1:0-57",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "module": "./src/modes/snap_polygon.ts",
+              "moduleName": "./src/modes/snap_polygon.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "resolvedModule": "./src/modes/snap_polygon.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "2:41-61",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "module": "./src/modes/snap_polygon.ts",
+              "moduleName": "./src/modes/snap_polygon.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "resolvedModule": "./src/modes/snap_polygon.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "3:28-42",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "module": "./src/modes/snap_polygon.ts",
+              "moduleName": "./src/modes/snap_polygon.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "resolvedModule": "./src/modes/snap_polygon.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "4:24-53",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "module": "./src/modes/snap_polygon.ts",
+              "moduleName": "./src/modes/snap_polygon.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "resolvedModule": "./src/modes/snap_polygon.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "68:12-40",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "module": "./src/modes/snap_polygon.ts",
+              "moduleName": "./src/modes/snap_polygon.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "resolvedModule": "./src/modes/snap_polygon.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "85:8-36",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+              "module": "./src/utils/customDrawStyles.ts",
+              "moduleName": "./src/utils/customDrawStyles.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+              "resolvedModule": "./src/utils/customDrawStyles.ts",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "1:0-45",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+              "module": "./src/utils/customDrawStyles.ts",
+              "moduleName": "./src/utils/customDrawStyles.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
+              "resolvedModule": "./src/utils/customDrawStyles.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "2:30-43",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+              "module": "./src/utils/index.ts",
+              "moduleName": "./src/utils/index.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+              "resolvedModule": "./src/utils/index.ts",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "2:0-48",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+              "module": "./src/utils/index.ts",
+              "moduleName": "./src/utils/index.ts",
+              "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
+              "resolvedModule": "./src/utils/index.ts",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "@mapbox/mapbox-gl-draw",
+              "loc": "3:25-45",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: List of module exports is dynamic (lib: maybe provided (runtime-defined) and used in main, other exports: maybe provided (runtime-defined) and maybe used in main (runtime-defined))"
+          ],
+          "depth": 2
         },
         {
           "type": "module",
@@ -9313,8 +9292,8 @@
           "cacheable": true,
           "optional": false,
           "orphan": false,
-          "issuer": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-disjoint/dist/esm/index.js",
-          "issuerName": "./node_modules/@turf/boolean-disjoint/dist/esm/index.js",
+          "issuer": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-intersects/dist/esm/index.js",
+          "issuerName": "./node_modules/@turf/boolean-intersects/dist/esm/index.js",
           "issuerPath": [
             {
               "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
@@ -9322,13 +9301,13 @@
               "id": null
             },
             {
-              "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-              "name": "./src/utils/index.ts",
+              "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+              "name": "./src/modes/snap_polygon.ts",
               "id": null
             },
             {
-              "identifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-disjoint/dist/esm/index.js",
-              "name": "./node_modules/@turf/boolean-disjoint/dist/esm/index.js",
+              "identifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-intersects/dist/esm/index.js",
+              "name": "./node_modules/@turf/boolean-intersects/dist/esm/index.js",
               "id": null
             }
           ],
@@ -10746,26 +10725,25 @@
     },
     {
       "type": "module",
-      "moduleType": "javascript/auto",
+      "moduleType": "javascript/dynamic",
       "layer": null,
-      "size": 79151,
+      "size": 42,
       "sizes": {
-        "javascript": 79151
+        "javascript": 42
       },
       "built": true,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
       "cached": false,
-      "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-      "name": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-      "nameForCondition": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
+      "identifier": "external var {\"commonjs\":\"@mapbox/mapbox-gl-draw\",\"commonjs2\":\"@mapbox/mapbox-gl-draw\",\"amd\":\"@mapbox/mapbox-gl-draw\",\"root\":\"MapboxDraw\"}",
+      "name": "external {\"commonjs\":\"@mapbox/mapbox-gl-draw\",\"commonjs2\":\"@mapbox/mapbox-gl-draw\",\"amd\":\"@mapbox/mapbox-gl-draw\",\"root\":\"MapboxDraw\"}",
+      "nameForCondition": null,
       "index": 2,
       "preOrderIndex": 2,
       "index2": 0,
       "postOrderIndex": 0,
-      "cacheable": true,
       "optional": false,
-      "orphan": false,
+      "orphan": true,
       "issuer": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
       "issuerName": "./src/modes/snap_polygon.ts",
       "issuerPath": [
@@ -10783,237 +10761,11 @@
       "failed": false,
       "errors": 0,
       "warnings": 0,
-      "id": 568,
+      "id": null,
       "issuerId": null,
-      "chunks": [
-        792
-      ],
+      "chunks": [],
       "assets": [],
       "reasons": [
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "module": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "moduleName": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "resolvedModule": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "1:68-82",
-          "moduleId": 568,
-          "resolvedModuleId": 568
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "module": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "moduleName": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "resolvedModule": "./node_modules/.pnpm/@mapbox+mapbox-gl-draw@1.4.3/node_modules/@mapbox/mapbox-gl-draw/dist/mapbox-gl-draw.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "1:205-209",
-          "moduleId": 568,
-          "resolvedModuleId": 568
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-          "resolvedModule": "./src/modes/snap_direct_select.ts",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "1:0-48",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-          "resolvedModule": "./src/modes/snap_direct_select.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "3:28-42",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-          "resolvedModule": "./src/modes/snap_direct_select.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "4:21-51",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
-          "resolvedModule": "./src/modes/snap_direct_select.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "5:18-38",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-          "resolvedModule": "./src/modes/snap_polygon.ts",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "1:0-57",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-          "resolvedModule": "./src/modes/snap_polygon.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "2:41-61",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-          "resolvedModule": "./src/modes/snap_polygon.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "3:28-42",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-          "resolvedModule": "./src/modes/snap_polygon.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "4:24-53",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-          "resolvedModule": "./src/modes/snap_polygon.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "68:12-40",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
-          "resolvedModule": "./src/modes/snap_polygon.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "85:8-36",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-          "resolvedModule": "./src/utils/customDrawStyles.ts",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "1:0-45",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/customDrawStyles.ts",
-          "resolvedModule": "./src/utils/customDrawStyles.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "2:30-43",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-          "resolvedModule": "./src/utils/index.ts",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "2:0-48",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
-        {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
-          "resolvedModuleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-          "resolvedModule": "./src/utils/index.ts",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "@mapbox/mapbox-gl-draw",
-          "loc": "3:25-45",
-          "moduleId": 648,
-          "resolvedModuleId": null
-        },
         {
           "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_direct_select.ts",
           "module": "./src/modes/snap_direct_select.ts",
@@ -11211,13 +10963,10 @@
           "resolvedModuleId": null
         }
       ],
-      "usedExports": null,
+      "usedExports": true,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: this is used directly at 1:205-209",
-        "CommonJS bailout: module.exports is used directly at 1:68-82",
-        "Statement (ExpressionStatement) with side effects in source code at 1:0-79107",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+        "ModuleConcatenation bailout: List of module exports is dynamic (lib: maybe provided (runtime-defined) and used in main, other exports: maybe provided (runtime-defined) and maybe used in main (runtime-defined))"
       ],
       "depth": 2
     },
@@ -14210,8 +13959,8 @@
       "cacheable": true,
       "optional": false,
       "orphan": true,
-      "issuer": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-disjoint/dist/esm/index.js",
-      "issuerName": "./node_modules/@turf/boolean-disjoint/dist/esm/index.js",
+      "issuer": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-intersects/dist/esm/index.js",
+      "issuerName": "./node_modules/@turf/boolean-intersects/dist/esm/index.js",
       "issuerPath": [
         {
           "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts",
@@ -14219,13 +13968,13 @@
           "id": null
         },
         {
-          "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/utils/index.ts",
-          "name": "./src/utils/index.ts",
+          "identifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/modes/snap_polygon.ts",
+          "name": "./src/modes/snap_polygon.ts",
           "id": null
         },
         {
-          "identifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-disjoint/dist/esm/index.js",
-          "name": "./node_modules/@turf/boolean-disjoint/dist/esm/index.js",
+          "identifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/@turf/boolean-intersects/dist/esm/index.js",
+          "name": "./node_modules/@turf/boolean-intersects/dist/esm/index.js",
           "id": null
         }
       ],
@@ -14819,9 +14568,9 @@
           "resolvedModuleId": 180
         },
         {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
+          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|5bc408d3eff43470f4e5bf8438e4912e",
+          "module": "./src/index.ts + 25 modules",
+          "moduleName": "./src/index.ts + 25 modules",
           "resolvedModuleIdentifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
           "resolvedModule": "./node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
           "type": "harmony side effect evaluation",
@@ -14829,13 +14578,13 @@
           "explanation": "",
           "userRequest": "polygon-clipping",
           "loc": "2:0-47",
-          "moduleId": 648,
+          "moduleId": 877,
           "resolvedModuleId": null
         },
         {
-          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|a119ac9fa371e502b9b0c0bd21057fac",
-          "module": "./src/index.ts + 24 modules",
-          "moduleName": "./src/index.ts + 24 modules",
+          "moduleIdentifier": "/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/ts-loader@9.5.1_typescript@5.5.4_webpack@5.94.0_webpack-cli@5.1.4_/node_modules/ts-loader/index.js!/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/src/index.ts|5bc408d3eff43470f4e5bf8438e4912e",
+          "module": "./src/index.ts + 25 modules",
+          "moduleName": "./src/index.ts + 25 modules",
           "resolvedModuleIdentifier": "javascript/esm|/home/raphael/Projects/mapbox-gl-draw-snap-on-mode/node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
           "resolvedModule": "./node_modules/.pnpm/@turf+difference@7.1.0/node_modules/@turf/difference/dist/esm/index.js",
           "type": "harmony import specifier",
@@ -14843,7 +14592,7 @@
           "explanation": "",
           "userRequest": "polygon-clipping",
           "loc": "14:22-48",
-          "moduleId": 648,
+          "moduleId": 877,
           "resolvedModuleId": null
         },
         {
@@ -15246,41 +14995,6 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 221,
-      "sizes": {
-        "runtime": 221
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/global",
-      "name": "webpack/runtime/global",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        792
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
       "size": 88,
       "sizes": {
         "runtime": 88
@@ -15357,19 +15071,19 @@
       "assets": [
         {
           "name": "index.js",
-          "size": 133172
+          "size": 54199
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 133172,
+      "assetsSize": 54199,
       "auxiliaryAssets": [
         {
           "name": "index.js.map",
-          "size": 486608
+          "size": 301546
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 486608,
+      "auxiliaryAssetsSize": 301546,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -15384,19 +15098,19 @@
       "assets": [
         {
           "name": "index.js",
-          "size": 133172
+          "size": 54199
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 133172,
+      "assetsSize": 54199,
       "auxiliaryAssets": [
         {
           "name": "index.js.map",
-          "size": 486608
+          "size": 301546
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 486608,
+      "auxiliaryAssetsSize": 301546,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
