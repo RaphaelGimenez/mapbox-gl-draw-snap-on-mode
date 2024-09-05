@@ -1,3 +1,4 @@
+import * as MapboxDraw from "@mapbox/mapbox-gl-draw";
 export type SnapPolygonState = {
     snap?: boolean;
     snapOptions: {
@@ -10,6 +11,9 @@ export type SnapPolygonState = {
 };
 declare module "@mapbox/mapbox-gl-draw" {
     interface MapboxDrawOptions extends SnapPolygonState {
+    }
+    interface DrawEvents {
+        "draw.snap.options_changed": MapboxDraw.DrawCreateEvent;
     }
 }
 export { default as SnapPolygonMode } from "./modes/snap_polygon";
