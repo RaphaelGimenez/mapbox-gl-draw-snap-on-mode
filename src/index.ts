@@ -8,6 +8,7 @@ export type SnapPolygonState = {
     snapVertexPriorityDistance?: number;
     sources?: string[];
   };
+  guides?: boolean;
 };
 
 declare module "@mapbox/mapbox-gl-draw" {

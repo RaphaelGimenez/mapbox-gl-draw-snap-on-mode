@@ -18,16 +18,6 @@ import { Map } from "mapbox-gl";
 
 const SnapPolygonMode = { ...DrawPolygonMode };
 
-export type SnapPolygonState = {
-  snap?: boolean;
-  snapOptions: {
-    snapPx?: number;
-    snapToMidPoints?: boolean;
-    snapVertexPriorityDistance?: number;
-    sources?: string[];
-  };
-};
-
 type State = {
   map: Map;
   polygon: DrawPolygon;
