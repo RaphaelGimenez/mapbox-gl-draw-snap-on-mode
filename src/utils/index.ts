@@ -16,12 +16,7 @@ import {
   lineString as turfLineString,
   point as turfPoint,
 } from "@turf/helpers";
-import {
-  GeoJSONSourceOptions,
-  GeoJSONSourceRaw,
-  LngLatLike,
-  Map,
-} from "mapbox-gl";
+import { LngLatLike, Map } from "mapbox-gl";
 
 export const IDS = {
   VERTICAL_GUIDE: "VERTICAL_GUIDE",
@@ -56,8 +51,8 @@ export const createSnapList = (
   const sourcesFeatures = sourcesIds
     .map((id) => {
       const source = map.getSource(id);
-      if (source.type === "geojson") {
-        const sourceData: GeoJSONSourceOptions["data"] = (source as any)._data;
+      if (source?.type === "geojson") {
+        const sourceData = source._data;
         if (!sourceData || typeof sourceData === "string") return [];
 
         if (sourceData.type === "FeatureCollection") {

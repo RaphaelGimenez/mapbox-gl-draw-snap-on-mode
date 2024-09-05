@@ -4,7 +4,10 @@ const modifiedDefaultStyles = lib.theme.map((defaultStyle) => {
   if (defaultStyle.id === "gl-draw-line-inactive") {
     return {
       ...defaultStyle,
-      filter: [...defaultStyle.filter, ["!=", "user_isSnapGuide", "true"]],
+      filter: [
+        ...(defaultStyle?.filter || []),
+        ["!=", "user_isSnapGuide", "true"],
+      ],
     };
   }
 

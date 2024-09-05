@@ -13,6 +13,10 @@ export type SnapPolygonState = {
 
 declare module "@mapbox/mapbox-gl-draw" {
   export interface MapboxDrawOptions extends SnapPolygonState {}
+
+  export interface DrawEvents {
+    "draw.snap.options_changed": MapboxDraw.DrawCreateEvent;
+  }
 }
 
 // export { default as SnapPointMode } from "./modes/snap_point";
