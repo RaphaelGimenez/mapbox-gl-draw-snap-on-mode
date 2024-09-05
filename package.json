@@ -1,7 +1,7 @@
 {
   "name": "mapbox-gl-draw-snap-on-mode",
   "version": "0.2.1",
-  "description": "Snapping mode for mapbox-gl-draw",
+  "description": "Snapping mode that snap to given sources for mapbox-gl-draw. In Typescript!",
   "main": "dist/index.js",
   "module": "src/index.js",
   "scripts": {
@@ -49,6 +49,9 @@
     "snapping",
     "geojson"
   ],
-  "author": "Mohammad H. Sattarian",
+  "authors": [
+    "Mohammad H. Sattarian",
+    "Raphael Gimenez"
+  ],
   "license": "MIT"
 }
