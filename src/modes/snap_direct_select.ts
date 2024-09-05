@@ -1,9 +1,15 @@
 import MapboxDraw from "@mapbox/mapbox-gl-draw";
-import { createSnapList, getGuideFeature, IDS, snap } from "./../utils";
+import { createSnapList, getGuideFeature, IDS, snap } from "../utils";
 const { doubleClickZoom } = MapboxDraw.lib;
 const DirectSelect = MapboxDraw.modes.direct_select;
 const Constants = MapboxDraw.constants;
-const SnapDirectSelect = { ...DirectSelect };
+
+interface DirectSelectMode extends MapboxDraw.DrawCustomMode {
+  pathsToCoordinates: (featureId: string, paths: any) => any;
+  dragVertex: (state: any, e: any, delta: any) => void;
+}
+
+const SnapDirectSelect = { ...(DirectSelect as DirectSelectMode) };
 
 SnapDirectSelect.onSetup = function (opts) {
   const featureId = opts.featureId;
@@ -17,7 +23,12 @@ SnapDirectSelect.onSetup = function (opts) {
     throw new TypeError("direct_select mode doesn't handle point features");
   }
 
-  const [snapList, vertices] = createSnapList(this.map, this._ctx.api, feature);
+  const [snapList, vertices] = createSnapList(
+    this.map,
+    (this as any)._ctx.api,
+    feature,
+    (this as any)._ctx.options.snapOptions.sources
+  );
 
   const verticalGuide = this.newFeature(getGuideFeature(IDS.VERTICAL_GUIDE));
   const horizontalGuide = this.newFeature(
@@ -39,9 +50,11 @@ SnapDirectSelect.onSetup = function (opts) {
     snapList,
     verticalGuide,
     horizontalGuide,
+    options: {},
+    optionsChangedCallBAck: (options: any) => {},
   };
 
-  state.options = this._ctx.options;
+  state.options = (this as any)._ctx.options;
 
   this.setSelectedCoordinates(
     this.pathsToCoordinates(featureId, state.selectedCoordPaths)
@@ -51,9 +64,11 @@ SnapDirectSelect.onSetup = function (opts) {
 
   this.setActionableState({
     trash: true,
+    combineFeatures: false,
+    uncombineFeatures: false,
   });
 
-  const optionsChangedCallBAck = (options) => {
+  const optionsChangedCallBAck = (options: any) => {
     state.options = options;
   };
 
@@ -79,7 +94,7 @@ SnapDirectSelect.onStop = function (state) {
   this.map.off("draw.snap.options_changed", state.optionsChangedCallBAck);
 
   // This relies on the the state of SnapPolygonMode being similar to DrawPolygon
-  DirectSelect.onStop.call(this, state);
+  DirectSelect.onStop?.call(this, state);
 };
 
 export default SnapDirectSelect;

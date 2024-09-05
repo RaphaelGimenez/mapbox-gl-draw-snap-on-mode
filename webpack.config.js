@@ -1,53 +1,33 @@
 const webpack = require("webpack");
 const TerserPlugin = require("terser-webpack-plugin");
-const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
-  .BundleAnalyzerPlugin;
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = [
   {
     mode: "production",
-    entry: "./src/index.js",
+    entry: "./src/index.ts",
     devtool: "source-map",
     output: {
       path: path.resolve(__dirname, "dist"),
-      filename: "mapbox-gl-draw-snap-mode.js",
-      library: "mapboxGlDrawSnapMode",
-      libraryTarget: "umd",
-      globalObject: "this",
-      // libraryExport: 'default',
+      filename: "index.js",
+      library: "mapboxGlDrawSnapOnMode",
     },
     optimization: {
       minimize: true,
       minimizer: [new TerserPlugin({ parallel: true })],
     },
-    // externals: [/^(@mapbox\/mapbox-gl-draw).*$/],
-    // externals: [
-    //   function ({ context, request }, callback) {
-    //     if (/^(@mapbox\/mapbox-gl-draw).*$/.test(request)) {
-    //       // Externalize to a commonjs module using the request path
-    //       return callback(null, {
-    //         root: "MapboxDraw",
-    //         commonjs: request,
-    //         commonjs2: request,
-    //       });
-    //     }
-
-    //     // Continue without externalizing the import
-    //     callback();
-    //   },
-    // ],
+    resolve: {
+      extensions: [".ts", ".js"],
+    },
     module: {
       rules: [
         {
-          test: /\.m?js$/,
+          test: /\.ts$/,
+          use: "ts-loader",
           exclude: /node_modules/,
-          use: {
-            loader: "babel-loader",
-            options: {
-              presets: ["@babel/preset-env"],
-            },
-          },
         },
       ],
     },

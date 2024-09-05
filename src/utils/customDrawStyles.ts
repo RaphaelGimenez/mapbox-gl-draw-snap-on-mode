@@ -1,14 +1,10 @@
-import MapboxDraw from "@mapbox/mapbox-gl-draw";
-const theme = MapboxDraw.lib.theme;
+import { lib } from "@mapbox/mapbox-gl-draw";
 
-const modifiedDefaultStyles = theme.map(defaultStyle => {
-  if (defaultStyle.id === 'gl-draw-line-inactive') {
+const modifiedDefaultStyles = lib.theme.map((defaultStyle) => {
+  if (defaultStyle.id === "gl-draw-line-inactive") {
     return {
       ...defaultStyle,
-      filter: [
-        ...defaultStyle.filter,
-        ['!=', 'user_isSnapGuide', 'true'],
-      ],
+      filter: [...defaultStyle.filter, ["!=", "user_isSnapGuide", "true"]],
     };
   }
 

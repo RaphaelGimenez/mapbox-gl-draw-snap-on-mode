@@ -7,35 +7,33 @@
  */
 
 const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = [
   {
     mode: "development",
-    devServer: {
-      static: path.join(__dirname, "docs"),
-      compress: true,
-      port: 9000,
-      hot: true,
-    },
-    entry: "./src/index.js",
+    // devServer: {
+    //   static: path.join(__dirname, "docs"),
+    //   compress: true,
+    //   port: 9000,
+    //   hot: true,
+    // },
+    entry: "./src/index.ts",
     devtool: "source-map",
     output: {
+      path: path.resolve(__dirname, "dist"),
       filename: "index.js",
-      library: "mapboxGlDrawSnapMode",
-      libraryTarget: "umd",
-      globalObject: "this",
+      library: "mapboxGlDrawSnapOnMode",
+    },
+    resolve: {
+      extensions: [".ts", ".js"],
     },
     module: {
       rules: [
         {
-          test: /\.m?js$/,
+          test: /\.ts$/,
+          use: "ts-loader",
           exclude: /node_modules/,
-          use: {
-            loader: "babel-loader",
-            options: {
-              presets: ["@babel/preset-env"],
-            },
-          },
         },
       ],
     },
