@@ -1,9 +1,15 @@
-# Mapbox-GL Draw Snap Mode
+# Mapbox-GL Draw Snap On Mode
 
-[![npm](https://img.shields.io/npm/v/mapbox-gl-draw-snap-mode?color=green)](https://www.npmjs.com/package/mapbox-gl-draw-snap-mode)
+[![npm](https://img.shields.io/npm/v/mapbox-gl-draw-snap-on-mode?color=green)](https://www.npmjs.com/package/mapbox-gl-draw-snap-on-mode)
 
 Custom mode for [Mapbox GL Draw](https://github.com/mapbox/mapbox-gl-draw) that adds snapping ability while drawing features.
 It provides options to show guiding lines, control snapping sensibility, and whether to snap to midpoints on each segment.
+
+Forked from https://github.com/mhsattarian/mapbox-gl-draw-snap-mode
+
+This fork adds the ability to pass source ids to snap to features external to the draw store.
+
+The package is now written in typescript to provider better type support and underlying logic understanding.
 
 ## Demo
 
@@ -14,33 +20,37 @@ See a full example in the docs folder, or check at the [**Demo**](https://mhsatt
 ## Install
 
 ```shell
-npm i mapbox-gl-draw-snap-mode
+npm i mapbox-gl-draw-snap-on-mode
 ```
 
 or use CDN:
 
 ```html
-<script src="https://unpkg.com/mapbox-gl-draw-snap-mode"></script>
+<script src="https://unpkg.com/mapbox-gl-draw-snap-on-mode"></script>
 ```
 
 ## Usage
 
+### Warning
+
+SnapPointMode and SnapLineMode are not implemented yet.
+
 ```js
 import {
   SnapPolygonMode,
-  SnapPointMode,
-  SnapLineMode,
+  //  SnapPointMode,
+  //  SnapLineMode,
   SnapModeDrawStyles,
   SnapDirectSelect,
-} from "mapbox-gl-draw-snap-mode";
+} from "mapbox-gl-draw-snap-on-mode";
 // or global variable mapboxGlDrawSnapMode when using script tag
 
 const draw = new MapboxDraw({
   modes: {
     ...MapboxDraw.modes,
-    draw_point: SnapPointMode,
+    //    draw_point: SnapPointMode,
     draw_polygon: SnapPolygonMode,
-    draw_line_string: SnapLineMode,
+    //    draw_line_string: SnapLineMode,
     direct_select: SnapDirectSelect,
   },
   // Styling guides
@@ -52,6 +62,7 @@ const draw = new MapboxDraw({
     snapPx: 15, // defaults to 15
     snapToMidPoints: true, // defaults to false
     snapVertexPriorityDistance: 0.0025, // defaults to 1.25
+    sources: ["sourceId"],
   },
   guides: false,
 });
